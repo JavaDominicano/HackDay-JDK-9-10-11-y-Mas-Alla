@@ -18,30 +18,45 @@ dependencies {
 }
 
 task copiasColecciones(type: JavaExec) {
+    group = 'Ejemplos'
+    description = 'Ejemplo de las copias a Colecciones'
+
     classpath sourceSets.main.runtimeClasspath
     main = "com.javadominicano.ej.java10.CopiasColecciones"
     args "arg1", "arg2"
 }
 
 task inferenciasTipos(type: JavaExec) {
+    group = 'Ejemplos'
+    description = 'Ejemplo de las Inferencias de Tipos'
+
     classpath sourceSets.main.runtimeClasspath
     main = "com.javadominicano.ej.java10.InferenciasTipos"
     args "arg1", "arg2"
 }
 
 task ejemploArchivos(type: JavaExec) {
+    group = 'Ejemplos'
+    description = 'Ejemplo manejo de los archivos'
+
     classpath sourceSets.main.runtimeClasspath
     main = "com.javadominicano.ej.java11.Archivos"
     args "arg1", "arg2"
 }
 
 task cambioString(type: JavaExec) {
+    group = 'Ejemplos'
+    description = 'Ejemplo metodos nuevos del String'
+
     classpath sourceSets.main.runtimeClasspath
     main = "com.javadominicano.ej.java11.CambiosString"
     args "arg1", "arg2"
 }
 
 task clienteHttp(type: JavaExec) {
+    group = 'Ejemplos'
+    description = 'Ejemplo del cliente HTTP'
+    
     classpath sourceSets.main.runtimeClasspath
     main = "com.javadominicano.ej.java11.ClienteHttp"
     args "arg1", "arg2"
