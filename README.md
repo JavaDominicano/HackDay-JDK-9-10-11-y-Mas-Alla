@@ -15,9 +15,8 @@ Agradecemos tener listo los pre-requisitos previo al inicio de la siguiente secc
 
 ## Que usaremos:
 
-### Maven
-
-Maven es una herramienta de creación de automatización que proporciona una forma eficiente de desarrollar aplicaciones Java. Usando Maven, vamos construir nuestros servicios. A continuación, realizará la configuración del servidor y los cambios de código y verá cómo los recoge un servidor en ejecución. También explorará cómo empaquetar su aplicación con el tiempo de ejecución del servidor para que se pueda implementar en cualquier lugar de una sola vez. Finalmente, empaquetaremos la aplicación junto con la configuración del servidor en una imagen Docker y la ejecutará como un contenedor.
+#Descargar guía y seguir el paso a paso
+[Descagar aquí](https://docs.google.com/document/d/e/2PACX-1vSrpVTmX_AA1yTv2ledn2fZftoAfQzYKRnYN-jZ6MThVSkmNLqtqswTzslx5a0Hm0afoY-LEofNWmo0/pub)
 
 ### Notas:
 
