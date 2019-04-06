@@ -1,0 +1,10 @@
+# Gradle
+.gradle
+build
+_site
+
+# IntelliJ
+.idea
+*.iml
+.project
+*.sw?
