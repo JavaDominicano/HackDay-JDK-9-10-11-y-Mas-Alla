@@ -16,3 +16,33 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+
+task copiasColecciones(type: JavaExec) {
+    classpath sourceSets.main.runtimeClasspath
+    main = "com.javadominicano.ej.java10.CopiasColecciones"
+    args "arg1", "arg2"
+}
+
+task inferenciasTipos(type: JavaExec) {
+    classpath sourceSets.main.runtimeClasspath
+    main = "com.javadominicano.ej.java10.InferenciasTipos"
+    args "arg1", "arg2"
+}
+
+task ejemploArchivos(type: JavaExec) {
+    classpath sourceSets.main.runtimeClasspath
+    main = "com.javadominicano.ej.java11.Archivos"
+    args "arg1", "arg2"
+}
+
+task cambioString(type: JavaExec) {
+    classpath sourceSets.main.runtimeClasspath
+    main = "com.javadominicano.ej.java11.CambiosString"
+    args "arg1", "arg2"
+}
+
+task clienteHttp(type: JavaExec) {
+    classpath sourceSets.main.runtimeClasspath
+    main = "com.javadominicano.ej.java11.ClienteHttp"
+    args "arg1", "arg2"
+}
